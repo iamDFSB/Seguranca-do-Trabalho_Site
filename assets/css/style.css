@@ -59,7 +59,7 @@ section{
     grid-template-columns: repeat(3,1fr);
     grid-column-gap: .5rem;
     grid-row-gap: 2rem;
-    margin: 100px 0 0 0;
+    margin: 90px 0 0 0;
     min-width: 90%;
     max-width: 95%;
 }
@@ -179,8 +179,12 @@ img{
     width: 44%;
 }
 
+.title{
+    width: 20%;
+}
+
 .title img{
-    width: 60px;
+    width: 40px;
 }
 
 body::-webkit-scrollbar{
