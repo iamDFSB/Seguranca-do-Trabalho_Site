@@ -11,10 +11,14 @@
     background-color: #9EA6E6;
 }
 
+:root{
+    --primmary_color: #D9DDF8;
+}
+
 body{
     display: flex;
     justify-content: center;
-    background-color: #D9DDF8;
+    background-color: var(--primmary_color);
     align-items: center;
     flex-direction: column;
 }
